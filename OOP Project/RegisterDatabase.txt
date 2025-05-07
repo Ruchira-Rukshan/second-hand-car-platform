@@ -1,0 +1,13 @@
+null,null,null,null,null
+goat,hhh@gmail.com,456,buyer,sdsdcs
+goat,hhh@gmail.com,456,seller,sdsdcs
+game,game@gmail.com,0775684978,buyer,game
+game,game@gmail.com,0775684978,buyer,game
+pal,pal@gmail.com,0775684978,buyer,pal
+sscs,ggg@gmai.com,0775684978,buyer,gdgdgg
+ben,ben@gmail.com,1111,buyer,ben
+ben,ben@gmail.com,1111,buyer,xcx
+sscs,ggg@gmai.com,0775684978,buyer,fff
+fff,ggg@gmai.com,0775684978,buyer,hhh
+sscs,ggg@gmai.com,0775684978,buyer,asa
+rob,rob@gmail.com,5555,buyer,5555

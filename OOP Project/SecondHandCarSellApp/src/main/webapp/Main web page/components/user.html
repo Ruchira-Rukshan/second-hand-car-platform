@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Management</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>User Management</h1>
+    <p>Register, Login, and Manage User Profiles</p>
+    <a href="../index.html" class="back-btn">← Back to Home</a>
+  </header>
+
+  <main class="container">
+    <section class="form-section">
+      <h2>Register New User</h2>
+      <form id="registerForm" method="POST" action="/SecondHandCarSellApp/components/user">
+  <input type="text" id="regName" name="regName" placeholder="Full Name" required />
+  <input type="email" id="regEmail" name="regEmail" placeholder="Email" required />
+  <input type="text" id="regContact" name="regContact" placeholder="Contact Number" required />
+  <select id="regRole" name="regRole">
+    <option value="buyer">Buyer</option>
+    <option value="seller">Seller</option>
+  </select>
+  <input type="password" id="password" name="password" placeholder="Password" required />
+  <button type="submit">Register</button>
+</form>
+
+    </section>
+
+    <section class="user-list">
+      <h2>Registered Users</h2>
+      <ul id="userList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Second-Hand Car Platform</p>
+  </footer>
+
+  <script src="../js/user.js"></script>
+</body>
+</html>
